@@ -1,0 +1,44 @@
+.left-bar {
+  min-width: 40px;
+  max-width: 40px;
+  background-color: #2b2a2d;
+  height: 100%;
+}
+
+.left-bar__container {
+  height: 280px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bar-container__digit {
+  opacity: 0.8;
+  font-family: "Proxima Nova Semibold";
+  font-size: 29px;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.bar-container__title {
+  transform: rotate(-90deg);
+  font-family: "Proxima Nova Semibold";
+  font-size: 13px;
+  color: #808080;
+  white-space: nowrap;
+  line-height: 13px;
+  margin-top: 80px
+}
+
+@font-face {
+  font-family: "Proxima Nova Semibold";
+  src: url("../../static/fonts/NovaBold/ProximaNova-Semibold.eot");
+  src: url("../../static/fonts/NovaBold/ProximaNova-Semibold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../static/fonts/NovaBold/ProximaNova-Semibold.woff") format("woff"),
+    url("../../static/fonts/NovaBold/ProximaNova-Semibold.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

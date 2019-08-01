@@ -1,0 +1,64 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 16px;
+  background-color: #323133;
+}
+
+.header__logo {
+  display: flex;
+  opacity: 0.4;
+  color: #ffffff;
+  font-family: Proxima Nova Bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.header__links {
+  display: flex;
+}
+
+.logo-doughnut {
+  border: 5px solid #a0cecb;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  margin-right: 10px;
+}
+
+.link {
+  font-size: 14px;
+  color: #ffffff;
+  letter-spacing: 1.27px;
+  font-family: Proxima Nova Bold;
+  text-transform: uppercase;
+  margin-right: 18px;
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  margin-left: 62px;
+}
+
+.icon {
+  margin-right: 24px;
+  width: 16px;
+  height: 16px;
+  background-color: #808080;
+  border-radius: 50%;
+  border: 1px solid red;
+}
+
+@font-face {
+  font-family: "Proxima Nova Bold";
+  src: url("../../static/fonts/NovaBold/ProximaNova-Bold.eot");
+  src: url("../../static/fonts/NovaBold/ProximaNova-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../static/fonts/NovaBold/ProximaNova-Bold.woff") format("woff"),
+    url("../../static/fonts/NovaBold/ProximaNova-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

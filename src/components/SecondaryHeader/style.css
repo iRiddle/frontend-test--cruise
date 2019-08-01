@@ -1,0 +1,41 @@
+.secondary-header {
+  display: flex;
+  opacity: 0.24;
+  background-color: #3a3a3b;
+  padding-left: 55px;
+}
+
+.secondary-header__container-title {
+  display: flex;
+  min-width: 140px;
+  margin-right: 10px;
+  padding: 8px 0px;
+}
+
+.container-title__date {
+  opacity: 0.8;
+  font-family: "Proxima Nova Semibold";
+  font-size: 13px;
+  color: #ffffff;
+}
+
+.container-title_current-day {
+  background: #e8ce4d;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 8px;
+  align-self: center;
+}
+
+@font-face {
+  font-family: "Proxima Nova Semibold";
+  src: url("../../static/fonts/NovaBold/ProximaNova-Semibold.eot");
+  src: url("../../static/fonts/NovaBold/ProximaNova-Semibold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../static/fonts/NovaBold/ProximaNova-Semibold.woff") format("woff"),
+    url("../../static/fonts/NovaBold/ProximaNova-Semibold.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

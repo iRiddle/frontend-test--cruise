@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #212022;
+  overflow: hidden;
+}
+
+.app__left-side {
+  display: flex;
+}

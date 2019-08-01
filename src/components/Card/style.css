@@ -1,0 +1,123 @@
+.tables__card {
+  background-color: #323133;
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 140px;
+  min-width: 140px;
+  min-height: 140px;
+  max-height: 273px;
+  height: 273px;
+}
+
+.card__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 16px;
+}
+
+.left-side__load {
+  font-size: 40px;
+  color: #e8ce4d;
+  letter-spacing: 0;
+  font-family: "Proxima Nova Bold";
+}
+
+.left-side__percent {
+  color: #ffffff;
+  opacity: 0.5;
+  font-family: "Proxima Nova Bold";
+  font-size: 12px;
+  margin-left: 2px;
+  position: relative;
+  top: -18px;
+}
+
+.header__right-side {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-top: -7px;
+}
+
+.right-side__dot {
+  height: 3px;
+  width: 3px;
+  margin-bottom: 2px;
+  background-color: #808080;
+  border-radius: 50%;
+  display: flex;
+}
+
+.card__divider {
+  color: #414042;
+  border: 0.25px solid #414042;
+  margin: 0;
+}
+
+.card__body-time {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 6px;
+}
+
+.body-time__title {
+  margin-bottom: 4px;
+  min-width: 62px;
+  min-height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body-time__title span {
+  opacity: 0.7;
+  color: #ffffff;
+  font-family: "Proxima Nova Semibold";
+  font-size: 13px;
+}
+
+.isBooked {
+  opacity: 0.5;
+  background: #242424;
+  border-radius: 2px;
+}
+
+/* color */
+.not-loaded {
+  color: #c1c1c2;
+}
+.bit-loaded {
+  color: #9be84d;
+}
+.medium-loaded {
+  color: #e8ce4d;
+}
+.heavy-loaded {
+  color: #e8944d;
+}
+.very-loaded {
+  color: #e8614d;
+}
+
+@font-face {
+  font-family: "Proxima Nova Bold";
+  src: url("../../static/fonts/NovaBold/ProximaNova-Bold.eot");
+  src: url("../../static/fonts/NovaBold/ProximaNova-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../static/fonts/NovaBold/ProximaNova-Bold.woff") format("woff"),
+    url("../../static/fonts/NovaBold/ProximaNova-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova Semibold";
+  src: url("../../static/fonts/NovaBold/ProximaNova-Semibold.eot");
+  src: url("../../static/fonts/NovaBold/ProximaNova-Semibold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../static/fonts/NovaBold/ProximaNova-Semibold.woff") format("woff"),
+    url("../../static/fonts/NovaBold/ProximaNova-Semibold.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
